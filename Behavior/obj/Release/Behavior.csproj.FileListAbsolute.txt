@@ -1,0 +1,12 @@
+C:\Projects\TvGuide\Behavior\obj\Release\ResolveAssemblyReference.cache
+C:\Projects\TvGuide\Behavior\bin\Release\Behavior.dll.config
+C:\Projects\TvGuide\Behavior\bin\Release\Behavior.dll
+C:\Projects\TvGuide\Behavior\bin\Release\Behavior.pdb
+C:\Projects\TvGuide\Behavior\bin\Release\BEO.dll
+C:\Projects\TvGuide\Behavior\bin\Release\nunit.framework.dll
+C:\Projects\TvGuide\Behavior\bin\Release\TechTalk.SpecFlow.dll
+C:\Projects\TvGuide\Behavior\bin\Release\BEO.pdb
+C:\Projects\TvGuide\Behavior\bin\Release\BEO.xml
+C:\Projects\TvGuide\Behavior\bin\Release\nunit.framework.xml
+C:\Projects\TvGuide\Behavior\obj\Release\Behavior.dll
+C:\Projects\TvGuide\Behavior\obj\Release\Behavior.pdb

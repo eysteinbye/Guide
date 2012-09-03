@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="8f77315e-7557-4580-a6c8-defbc6a2930b" name="Eystein@WINBOX 2012-08-24 23:02:52" runUser="WinBox\Eystein" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="213a9241-b0c4-4e2e-ac37-9e66a75b6771">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="Eystein_WINBOX 2012-08-24 23_02_52">
+      <DeploymentItem filename="C:\Projects\TvGuide\BEO\bin\Release\BEO.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2012-08-24T23:02:52.5785168+02:00" queuing="2012-08-24T23:02:53.4515667+02:00" start="2012-08-24T23:02:53.5435720+02:00" finish="2012-08-24T23:02:54.4876260+02:00" />
+  <ResultSummary outcome="Completed">
+    <Counters total="5" executed="5" passed="5" error="0" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="IsValidXml" storage="c:\projects\tvguide\unittest\bin\release\unittest.dll" id="52e9deaa-cfe7-7773-b774-0ad6244cfc9f">
+      <Execution id="51e5ceac-c40d-4493-a6e5-ba9a1bd1d8d6" />
+      <TestMethod codeBase="C:/Projects/TvGuide/UnitTest/bin/Release/UnitTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="UnitTest.GrabberFileTest, UnitTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="IsValidXml" />
+    </UnitTest>
+    <UnitTest name="IsURLCorrect" storage="c:\projects\tvguide\unittest\bin\release\unittest.dll" id="918006b7-f58c-2fe4-1365-5682a8220bb5">
+      <Execution id="0ef22209-1c1e-4498-aac0-9ea00d55f7fd" />
+      <TestMethod codeBase="C:/Projects/TvGuide/UnitTest/bin/Release/UnitTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="UnitTest.GrabberAddressTest, UnitTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="IsURLCorrect" />
+    </UnitTest>
+    <UnitTest name="GetXmlContentDate" storage="c:\projects\tvguide\unittest\bin\release\unittest.dll" id="2efb8f86-da4b-0441-6245-21d076ce6d7e">
+      <Execution id="9d694f17-ce06-4961-9a95-d3a0881ad0f8" />
+      <TestMethod codeBase="C:/Projects/TvGuide/UnitTest/bin/Release/UnitTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="UnitTest.GrabberDateTest, UnitTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="GetXmlContentDate" />
+    </UnitTest>
+    <UnitTest name="GetFileNameDateString" storage="c:\projects\tvguide\unittest\bin\release\unittest.dll" id="7f74eb45-ede8-d395-954c-f0e5f774f493">
+      <Execution id="9dad9f6c-89f8-48d6-84c1-5cb027e5e756" />
+      <TestMethod codeBase="C:/Projects/TvGuide/UnitTest/bin/Release/UnitTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="UnitTest.GrabberDateTest, UnitTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="GetFileNameDateString" />
+    </UnitTest>
+    <UnitTest name="FileContentIsXML" storage="c:\projects\tvguide\unittest\bin\release\unittest.dll" id="606fe0a8-1b51-551b-57f4-11c5eb57b1b6">
+      <Execution id="8f2d28a9-9014-4162-8326-bb8eba765d74" />
+      <TestMethod codeBase="C:/Projects/TvGuide/UnitTest/bin/Release/UnitTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="UnitTest.GrabberFileTest, UnitTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="FileContentIsXML" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="2efb8f86-da4b-0441-6245-21d076ce6d7e" executionId="9d694f17-ce06-4961-9a95-d3a0881ad0f8" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="52e9deaa-cfe7-7773-b774-0ad6244cfc9f" executionId="51e5ceac-c40d-4493-a6e5-ba9a1bd1d8d6" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="606fe0a8-1b51-551b-57f4-11c5eb57b1b6" executionId="8f2d28a9-9014-4162-8326-bb8eba765d74" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="7f74eb45-ede8-d395-954c-f0e5f774f493" executionId="9dad9f6c-89f8-48d6-84c1-5cb027e5e756" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="918006b7-f58c-2fe4-1365-5682a8220bb5" executionId="0ef22209-1c1e-4498-aac0-9ea00d55f7fd" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="9d694f17-ce06-4961-9a95-d3a0881ad0f8" testId="2efb8f86-da4b-0441-6245-21d076ce6d7e" testName="GetXmlContentDate" computerName="WINBOX" duration="00:00:00.0154551" startTime="2012-08-24T23:02:53.6285768+02:00" endTime="2012-08-24T23:02:54.0576014+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="9d694f17-ce06-4961-9a95-d3a0881ad0f8">
+    </UnitTestResult>
+    <UnitTestResult executionId="51e5ceac-c40d-4493-a6e5-ba9a1bd1d8d6" testId="52e9deaa-cfe7-7773-b774-0ad6244cfc9f" testName="IsValidXml" computerName="WINBOX" duration="00:00:00.1806226" startTime="2012-08-24T23:02:54.0676019+02:00" endTime="2012-08-24T23:02:54.2526125+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="51e5ceac-c40d-4493-a6e5-ba9a1bd1d8d6">
+    </UnitTestResult>
+    <UnitTestResult executionId="8f2d28a9-9014-4162-8326-bb8eba765d74" testId="606fe0a8-1b51-551b-57f4-11c5eb57b1b6" testName="FileContentIsXML" computerName="WINBOX" duration="00:00:00.0868520" startTime="2012-08-24T23:02:54.2586129+02:00" endTime="2012-08-24T23:02:54.3496181+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="8f2d28a9-9014-4162-8326-bb8eba765d74">
+    </UnitTestResult>
+    <UnitTestResult executionId="9dad9f6c-89f8-48d6-84c1-5cb027e5e756" testId="7f74eb45-ede8-d395-954c-f0e5f774f493" testName="GetFileNameDateString" computerName="WINBOX" duration="00:00:00.0003904" startTime="2012-08-24T23:02:54.3656190+02:00" endTime="2012-08-24T23:02:54.3716193+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="9dad9f6c-89f8-48d6-84c1-5cb027e5e756">
+    </UnitTestResult>
+    <UnitTestResult executionId="0ef22209-1c1e-4498-aac0-9ea00d55f7fd" testId="918006b7-f58c-2fe4-1365-5682a8220bb5" testName="IsURLCorrect" computerName="WINBOX" duration="00:00:00.0002788" startTime="2012-08-24T23:02:54.3776197+02:00" endTime="2012-08-24T23:02:54.3816199+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="0ef22209-1c1e-4498-aac0-9ea00d55f7fd">
+    </UnitTestResult>
+  </Results>
+</TestRun>

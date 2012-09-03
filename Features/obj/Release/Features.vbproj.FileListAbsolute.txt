@@ -1,0 +1,11 @@
+C:\Projects\TvGuide\Features\bin\Release\Features.dll.config
+C:\Projects\TvGuide\Features\bin\Release\Features.dll
+C:\Projects\TvGuide\Features\bin\Release\Features.pdb
+C:\Projects\TvGuide\Features\bin\Release\Features.xml
+C:\Projects\TvGuide\Features\bin\Release\nunit.framework.dll
+C:\Projects\TvGuide\Features\bin\Release\TechTalk.SpecFlow.dll
+C:\Projects\TvGuide\Features\bin\Release\nunit.framework.xml
+C:\Projects\TvGuide\Features\obj\Release\ResolveAssemblyReference.cache
+C:\Projects\TvGuide\Features\obj\Release\Features.dll
+C:\Projects\TvGuide\Features\obj\Release\Features.xml
+C:\Projects\TvGuide\Features\obj\Release\Features.pdb

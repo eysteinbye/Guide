@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="2c380499-0fbd-41f2-b5fa-73ecf07670c9" name="Eystein@WINBOX 2012-08-24 23:42:59" runUser="WinBox\Eystein" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="213a9241-b0c4-4e2e-ac37-9e66a75b6771">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="Eystein_WINBOX 2012-08-24 23_42_59">
+      <DeploymentItem filename="C:\Projects\TvGuide\packages\SpecFlow.1.9.0\lib\net35\TechTalk.SpecFlow.dll" />
+      <DeploymentItem filename="C:\Projects\TvGuide\BEO\bin\Release\BEO.dll" />
+      <DeploymentItem filename="C:\Projects\TvGuide\packages\NUnit.2.6.1\lib\nunit.framework.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2012-08-24T23:42:59.9282093+02:00" queuing="2012-08-24T23:42:59.9802123+02:00" start="2012-08-24T23:42:59.9862126+02:00" finish="2012-08-24T23:43:00.1892242+02:00" />
+  <ResultSummary outcome="Completed">
+    <Counters total="1" executed="1" passed="1" error="0" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="TestMethod1" storage="c:\projects\tvguide\behavior\bin\release\behavior.dll" id="a52161f2-7b99-ca13-f6e6-68a59d34f955">
+      <Execution id="bc491460-4b4c-483b-8c37-c66e2b3eb7f6" />
+      <TestMethod codeBase="C:/Projects/TvGuide/Behavior/bin/Release/Behavior.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Behavior.UnitTest1, Behavior, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestMethod1" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="a52161f2-7b99-ca13-f6e6-68a59d34f955" executionId="bc491460-4b4c-483b-8c37-c66e2b3eb7f6" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="bc491460-4b4c-483b-8c37-c66e2b3eb7f6" testId="a52161f2-7b99-ca13-f6e6-68a59d34f955" testName="TestMethod1" computerName="WINBOX" duration="00:00:00.0101868" startTime="2012-08-24T23:42:59.9872127+02:00" endTime="2012-08-24T23:43:00.1492219+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="bc491460-4b4c-483b-8c37-c66e2b3eb7f6">
+    </UnitTestResult>
+  </Results>
+</TestRun>

@@ -1,0 +1,10 @@
+C:\Projects\TvGuide\UnitTest\obj\Release\ResolveAssemblyReference.cache
+C:\Projects\TvGuide\UnitTest\bin\Release\UnitTest.dll
+C:\Projects\TvGuide\UnitTest\bin\Release\UnitTest.pdb
+C:\Projects\TvGuide\UnitTest\bin\Release\UnitTest.xml
+C:\Projects\TvGuide\UnitTest\bin\Release\BEO.dll
+C:\Projects\TvGuide\UnitTest\bin\Release\BEO.pdb
+C:\Projects\TvGuide\UnitTest\bin\Release\BEO.xml
+C:\Projects\TvGuide\UnitTest\obj\Release\UnitTest.dll
+C:\Projects\TvGuide\UnitTest\obj\Release\UnitTest.xml
+C:\Projects\TvGuide\UnitTest\obj\Release\UnitTest.pdb

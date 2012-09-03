@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE tv SYSTEM "xmltv.dtd">
+
+<tv generator-info-name="nonametv">
+  <programme start="20120825115500 +0200" stop="20120825125500 +0200" channel="sporthd.viasat.no">
+    <title lang="nb">Bull Riding: Pro Bull Riders 2012</title>
+    <desc lang="nb">Profesjonell Okseridning - The Toughest Sport on Dirt - er ingen rodeo, men 110% ren adrenalin.</desc>
+    <category lang="en">sports</category>
+    <category lang="en">Sports</category>
+  </programme>
+  <programme start="20120825125500 +0200" stop="20120825134500 +0200" channel="sporthd.viasat.no">
+    <title lang="nb">MotoGP Tsjekkia: Moto3 - Kvalifisering</title>
+    <category lang="en">sports</category>
+    <category lang="en">Sports</category>
+  </programme>
+  <programme start="20120825134500 +0200" stop="20120825151000 +0200" channel="sporthd.viasat.no">
+    <title lang="nb">MotoGP Tsjekkia: Kvalifisering</title>
+    <category lang="en">sports</category>
+    <category lang="en">Sports</category>
+  </programme>
+  <programme start="20120825151000 +0200" stop="20120825161000 +0200" channel="sporthd.viasat.no">
+    <title lang="nb">MotoGP Tsjekkia: Moto2 - Kvalifisering</title>
+    <category lang="en">sports</category>
+    <category lang="en">Sports</category>
+  </programme>
+  <programme start="20120825161000 +0200" stop="20120825190000 +0200" channel="sporthd.viasat.no">
+    <title lang="nb">Golf: The Barclays</title>
+    <desc lang="nb">The Barclays spilles i år på Bethpage State Park, Farmingdale,NY.</desc>
+    <category lang="en">sports</category>
+    <category lang="en">Sports</category>
+  </programme>
+  <programme start="20120825190000 +0200" stop="20120825203000 +0200" channel="sporthd.viasat.no">
+    <title lang="nb">Golf: The Barclays</title>
+    <desc lang="nb">The Barclays spilles i år på Bethpage State Park, Farmingdale,NY.</desc>
+    <category lang="en">sports</category>
+    <category lang="en">Sports</category>
+  </programme>
+  <programme start="20120825203000 +0200" stop="20120825210000 +0200" channel="sporthd.viasat.no">
+    <title lang="nb">Golf: Inside the PGA Tour</title>
+    <desc lang="nb">USA-tourens ukemagasin som inneholder aktuelle reportasjer og intervjuer med spillere.</desc>
+    <category lang="en">sports</category>
+    <category lang="en">Sports</category>
+  </programme>
+  <programme start="20120825210000 +0200" stop="20120826000000 +0200" channel="sporthd.viasat.no">
+    <title lang="nb">Golf: The Barclays</title>
+    <desc lang="nb">The Barclays spilles i år på Bethpage State Park, Farmingdale,NY.</desc>
+    <category lang="en">sports</category>
+    <category lang="en">Sports</category>
+  </programme>
+</tv>

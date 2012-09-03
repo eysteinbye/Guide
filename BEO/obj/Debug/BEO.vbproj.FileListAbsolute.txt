@@ -1,0 +1,10 @@
+C:\Projects\TvGuide\BEO\bin\Debug\BEO.dll
+C:\Projects\TvGuide\BEO\bin\Debug\BEO.pdb
+C:\Projects\TvGuide\BEO\bin\Debug\BEO.xml
+C:\Projects\TvGuide\BEO\obj\Debug\ResolveAssemblyReference.cache
+C:\Projects\TvGuide\BEO\obj\Debug\BEO.Resources.resources
+C:\Projects\TvGuide\BEO\obj\Debug\GenerateResource.read.1.tlog
+C:\Projects\TvGuide\BEO\obj\Debug\GenerateResource.write.1.tlog
+C:\Projects\TvGuide\BEO\obj\Debug\BEO.dll
+C:\Projects\TvGuide\BEO\obj\Debug\BEO.xml
+C:\Projects\TvGuide\BEO\obj\Debug\BEO.pdb

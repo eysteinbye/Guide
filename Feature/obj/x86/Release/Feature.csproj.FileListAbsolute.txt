@@ -1,0 +1,1 @@
+C:\Projects\TvGuide\Feature\obj\x86\Release\ResolveAssemblyReference.cache

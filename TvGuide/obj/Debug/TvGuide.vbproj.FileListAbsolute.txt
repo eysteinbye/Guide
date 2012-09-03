@@ -1,0 +1,13 @@
+C:\Projects\TvGuide\TvGuide\bin\TvGuide.dll
+C:\Projects\TvGuide\TvGuide\bin\TvGuide.pdb
+C:\Projects\TvGuide\TvGuide\bin\TvGuide.xml
+C:\Projects\TvGuide\TvGuide\obj\Debug\ResolveAssemblyReference.cache
+C:\Projects\TvGuide\TvGuide\obj\Debug\TvGuide.Resources.resources
+C:\Projects\TvGuide\TvGuide\obj\Debug\GenerateResource.read.1.tlog
+C:\Projects\TvGuide\TvGuide\obj\Debug\GenerateResource.write.1.tlog
+C:\Projects\TvGuide\TvGuide\obj\Debug\TvGuide.dll
+C:\Projects\TvGuide\TvGuide\obj\Debug\TvGuide.xml
+C:\Projects\TvGuide\TvGuide\obj\Debug\TvGuide.pdb
+C:\Projects\TvGuide\TvGuide\bin\BEO.dll
+C:\Projects\TvGuide\TvGuide\bin\BEO.pdb
+C:\Projects\TvGuide\TvGuide\bin\BEO.xml
