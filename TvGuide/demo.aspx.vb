@@ -8,10 +8,14 @@ Public Class demo
 
     Protected Sub Page_Load(ByVal sender As Object, ByVal e As System.EventArgs) Handles Me.Load
         If Not Page.IsPostBack Then
-            DropDownList1.DataSource = {"motor.viasat.no", "sporthd.viasat.no", "tv2.no"}
-            DropDownList1.DataBind()
 
+            Dim cl As New BEO.ChannelList
+            For Each gg In cl.List.ToArray
+                DropDownList1.Items.Add(New ListItem(gg.Value, gg.Key))
+            Next
+            DropDownList1.DataBind()
             Calendar1.SelectedDate = Date.Today
+            Call Populate()
         End If
     End Sub
 

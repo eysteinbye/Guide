@@ -1,16 +1,21 @@
 ﻿Public Class Channel
 
-    Public Property Name As String
     Public Property Programs As New List(Of Program)
-    Private xmlContent As XDocument
+    Public Property Info As ChannelInfo
 
     Private Sub New()
 
     End Sub
 
+    ' Only the info and not the program
+    Public Sub New(channelId As String)
+        Info = New ChannelInfo(channelId)
+    End Sub
 
-    Public Sub New(channelName As String, programDate As Date)
-        Dim grabberAdr As New GrabberAddress(channelName, programDate)
+    Public Sub New(channelId As String, programDate As Date)
+        Info = New ChannelInfo(channelId)
+
+        Dim grabberAdr As New GrabberAddress(channelId, programDate)
         Dim grabber As New GrabberFile(grabberAdr.URL)
 
         Call Populate(grabber.GetXmlContentFromZip())

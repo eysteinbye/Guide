@@ -3,7 +3,7 @@ Imports System.Web.Services.Protocols
 Imports System.ComponentModel
 
 ' To allow this Web Service to be called from script, using ASP.NET AJAX, uncomment the following line.
-' <System.Web.Script.Services.ScriptService()> _
+<System.Web.Script.Services.ScriptService()> _
 <System.Web.Services.WebService(Namespace:="http://tempuri.org/")> _
 <System.Web.Services.WebServiceBinding(ConformsTo:=WsiProfiles.BasicProfile1_1)> _
 <ToolboxItem(False)> _
@@ -11,9 +11,15 @@ Public Class Program
     Inherits System.Web.Services.WebService
 
     <WebMethod()> _
-    Public Function GetAllChannels() As List(Of String)
-        Dim prg As New BEO.Program
-        Return prg.GetAllChanels()
+    Public Function GetAllChanels() As Array
+        Dim channelList As New BEO.ChannelList
+        'Dim list As List(Of KeyValuePair(Of String, String)) = list.List.ToList
+        Return channelList.List.ToArray
+    End Function
+
+    <WebMethod()> _
+    Public Function GetInfoForChannel(channelId As String) As BEO.ChannelInfo
+        Return New BEO.ChannelInfo(channelId)
     End Function
 
     <WebMethod()> _

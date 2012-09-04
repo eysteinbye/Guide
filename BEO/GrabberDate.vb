@@ -2,8 +2,6 @@
 
 Public Class GrabberDate
 
-
-
     Public Shared Function GetFileNameDateString(programDate As Date) As String
         Dim pattern As String = "yyyy-MM-dd"
         Return programDate.ToString(pattern)
