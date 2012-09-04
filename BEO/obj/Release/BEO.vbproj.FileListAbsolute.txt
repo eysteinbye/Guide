@@ -8,3 +8,4 @@ C:\Projects\TvGuide\BEO\obj\Release\GenerateResource.write.1.tlog
 C:\Projects\TvGuide\BEO\obj\Release\BEO.dll
 C:\Projects\TvGuide\BEO\obj\Release\BEO.xml
 C:\Projects\TvGuide\BEO\obj\Release\BEO.pdb
+C:\Projects\TvGuide\BEO\bin\Release\BEO.dll.config

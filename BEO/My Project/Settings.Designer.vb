@@ -54,40 +54,31 @@ Namespace My
             End Get
         End Property
         
-        <Global.System.Configuration.UserScopedSettingAttribute(),  _
+        <Global.System.Configuration.ApplicationScopedSettingAttribute(),  _
          Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
          Global.System.Configuration.DefaultSettingValueAttribute("http://data.epg.no/xmltv/channels.xml.gz")>  _
-        Public Property ChannelListUrl() As String
+        Public ReadOnly Property ChannelListUrl() As String
             Get
                 Return CType(Me("ChannelListUrl"),String)
             End Get
-            Set
-                Me("ChannelListUrl") = value
-            End Set
         End Property
         
-        <Global.System.Configuration.UserScopedSettingAttribute(),  _
+        <Global.System.Configuration.ApplicationScopedSettingAttribute(),  _
          Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
          Global.System.Configuration.DefaultSettingValueAttribute("http://data.epg.no/xmltv/")>  _
-        Public Property BaseUrl() As String
+        Public ReadOnly Property BaseUrl() As String
             Get
                 Return CType(Me("BaseUrl"),String)
             End Get
-            Set
-                Me("BaseUrl") = value
-            End Set
         End Property
         
-        <Global.System.Configuration.UserScopedSettingAttribute(),  _
+        <Global.System.Configuration.ApplicationScopedSettingAttribute(),  _
          Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
          Global.System.Configuration.DefaultSettingValueAttribute(".xml.gz")>  _
-        Public Property XmlExtention() As String
+        Public ReadOnly Property XmlExtention() As String
             Get
                 Return CType(Me("XmlExtention"),String)
             End Get
-            Set
-                Me("XmlExtention") = value
-            End Set
         End Property
     End Class
 End Namespace
