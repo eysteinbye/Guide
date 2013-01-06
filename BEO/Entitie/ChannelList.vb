@@ -1,7 +1,7 @@
 ﻿Public Class ChannelList
 
     Public List As New Dictionary(Of String, String)
-    Public ChannelIdList As List(Of String)
+    '  Public ChannelIdList As List(Of String)
 
     Public Sub New()
 

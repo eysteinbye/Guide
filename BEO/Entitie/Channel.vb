@@ -7,11 +7,6 @@
 
     End Sub
 
-    ' Only the info and not the program
-    Public Sub New(channelId As String)
-        Info = New ChannelInfo(channelId)
-    End Sub
-
     Public Sub New(channelId As String, programDate As Date)
         Info = New ChannelInfo(channelId)
 

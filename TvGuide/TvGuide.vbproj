@@ -92,6 +92,7 @@
     <Content Include="Default.aspx" />
     <Content Include="demo.aspx" />
     <Content Include="Global.asax" />
+    <Content Include="Guide.aspx" />
     <Content Include="Program.asmx" />
     <Content Include="Scripts\jquery-1.4.1-vsdoc.js" />
     <Content Include="Scripts\jquery-1.4.1.js" />
@@ -121,6 +122,13 @@
     </Compile>
     <Compile Include="Global.asax.vb">
       <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="Guide.aspx.designer.vb">
+      <DependentUpon>Guide.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Guide.aspx.vb">
+      <DependentUpon>Guide.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
     </Compile>
     <Compile Include="My Project\AssemblyInfo.vb" />
     <Compile Include="My Project\Application.Designer.vb">
